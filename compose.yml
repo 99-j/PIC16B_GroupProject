@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  flask-app:
+    build: .
+    deploy:
+      resources:
+        limits:
+          cpus: '1.0'
+          memory: 2G
+    restart: always
+    ports:
+      - '9011:5000'
+    volumes:
+      - .:/home/app
+    command: ./startup.sh
