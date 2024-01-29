@@ -12,5 +12,5 @@ services:
     ports:
       - '9011:5000'
     volumes:
-      - .:/home/app
-    command: ./startup.sh
+      - .:/home/appuser
+    command: gunicorn -b 0.0.0.0:5000 app:app
