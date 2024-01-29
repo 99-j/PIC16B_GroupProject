@@ -1,3 +1,29 @@
+# Get Started
+
+## Version 24.1.0
+- Support Docker installation
+- Updated some packages
+
+## Disclaimer
+
+This web app is for educational purpose only and we(developers, application server providers) are not responsible for any consequences used by customers. If you choose to use our webapp public version,
+you agree that your uploaded data/images will be uploaded and stored in our server and may be displayed to others (under Gallery section), we may peroidically remove these images.
+
+## Public Version on NTEC.APP
+
+The **`public version`** is based on **`full version`**, the **`public version`** is running on NicholasTec Cloud Webapp platform and avoids some issues/function limits on heroku.
+
+**Public Version Webapp Link (Recommend)**:
+
+https://dog.ntec.app
+
+## Run on local
+
+- Requirements: x86/amd64 CPU with AVX support (Ubuntu is recommened), Python3.9, Docker
+- Install: `docker compose up`
+- Running at: localhost:9011
+
+
 ## **Group Contributions Statement**
 
 **Peng Wu**:
@@ -49,14 +75,6 @@
 - Miao Wang
 - Jiamu Liu
 
-## Public Version on AWS
-
-The **`public version`** is based on **`full version`**, the **`public version`** is running on AWS platform and avoids some issues/function limits on heroku.
-
-**Public Version Webapp Link (Recommend)**:
-
-https://dog.ntec.app
-
 ## Full Version of This Project
 
 The full version has `slug size (482 MB) exceeds the soft limit (300 MB)` which may `affect boot time`.
@@ -67,7 +85,7 @@ This Web app uses a `lot of memory`, and it might be `crashed` if you use pictur
 
 **Full Version Webapp Link**:
 
-https://pic16b-dog-facial-recognition.herokuapp.com/
+https://pic16b-dog-facial-recognition.herokuapp.com/  (deprecated)
 
 ## Short Version of This Project
 
